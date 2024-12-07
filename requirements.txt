@@ -1,0 +1,71 @@
+# 基础深度学习框架
+torch>=2.0.0                # PyTorch，用于构建和训练模型
+torchvision>=0.15.0         # PyTorch视觉工具包（如果需要图像相关功能）
+
+# 机器学习
+scikit-learn>=1.5.0         # scikit-learn
+
+# 数值计算和数据处理
+numpy>=1.23.0               # 数值计算
+scipy>=1.10.0               # 科学计算工具
+pandas>=1.5.0               # 数据处理和分析
+
+# 优化与加速
+torchtext>=0.15.0           # 文本数据加载与预处理工具
+torchmetrics>=0.11.0        # 用于评估模型性能的指标工具
+onnx>=1.14.0                # 用于导出ONNX格式的模型
+onnxruntime>=1.15.0         # ONNX推理优化
+optuna>=3.2.0               # 超参数优化
+
+# 注意力机制相关支持库
+transformers>=4.33.0        # 提供预训练模型和注意力机制实现
+accelerate>=0.22.0          # 多设备加速（支持CPU、GPU、TPU）
+
+# 可视化与调试
+matplotlib>=3.6.0           # 可视化工具
+seaborn>=0.12.0             # 数据可视化（热力图等）
+tensorboard>=2.10.0         # 用于模型训练的可视化
+wandb>=0.15.0               # Weights & Biases，用于实验跟踪和调试
+
+# 数据增强与生成
+nltk>=3.8.0                 # 自然语言工具包
+spacy>=3.6.0                # NLP数据处理
+sentencepiece>=0.1.99       # 分词工具（必要时用于文本处理）
+textaugment>=1.4.4          # 文本数据增强
+
+# 高级训练工具
+fairscale>=0.4.13           # PyTorch大模型训练优化
+apex>=0.1                   # NVIDIA的混合精度训练工具
+deepspeed>=0.9.0            # 分布式训练工具
+
+# 性能分析与测试
+psutil>=5.9.0               # 系统性能监控
+line_profiler>=3.7.1        # 代码性能分析
+pytest>=7.4.0               # 测试框架
+pytest-mock>=3.10.0         # Mock工具，适合单元测试
+
+# 编解码与推理
+sentence-transformers>=2.2.2 # 预训练句向量模型
+faiss-cpu>=1.7.0            # 快速最近邻搜索（基于稀疏矩阵）
+huggingface-hub>=0.18.0     # Hugging Face模型和数据下载支持
+
+# 文件格式支持
+pyyaml>=6.0                 # 配置文件处理
+jsonlines>=3.0.0            # 处理大规模JSON数据
+h5py>=3.9.0                 # HDF5文件支持（如需要存储模型权重）
+
+# 版本控制与分布式支持
+dvc>=3.0.0                  # 数据版本控制
+mlflow>=2.6.0               # 实验跟踪
+
+# 依赖管理
+pip>=23.3.1                 # 包管理工具，保持最新
+setuptools>=68.0.0          # Python打包工具
+wheel>=0.41.0               # 打包依赖
+
+# GPU支持（如使用NVIDIA显卡）
+nvidia-pyindex>=1.0.9       # NVIDIA PyPI索引
+nvidia-cuda-runtime-cu11>=11.8.89
+nvidia-cudnn-cu11>=8.9.0
+nvidia-tensorrt>=8.6.0
+
