@@ -1,6 +1,7 @@
 # 带位置编码的前馈层（Positionwise Feedforward Network）
 import torch
 import torch.nn as nn
+from models.base_model.positional_encoding import *
 
 
 
